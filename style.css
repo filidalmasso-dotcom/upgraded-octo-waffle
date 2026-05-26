@@ -1,0 +1,183 @@
+/* style.css */
+/* Estilos generales de la página (Estilo urbano) */
+body {
+    background-color: #0b0b11; /* Fondo oscuro asfalto profundo */
+    color: #f4f4f4;
+    font-family: 'Share Tech Mono', monospace; /* Tipografía para el resto de la página */
+    margin: 0;
+    padding: 40px 20px;
+}
+
+/* Contenedor principal solicitado */
+.contenedor-principal {
+    width: 80%; /* Ancho del 80% */
+    margin-left: 0; /* Alineado a la izquierda */
+    margin-right: auto;
+    background-color: #14141f;
+    padding: 40px;
+    border-left: 6px solid #ff0055; /* Acento saturado urbano (rosa neón) */
+    box-shadow: 10px 10px 0px rgba(0, 255, 204, 0.25); /* Sombra urbana cian */
+}
+
+/* Título */
+h1 {
+    color: #00ffcc; /* Color saturado cian */
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0;
+    text-shadow: 2px 2px 0px #000;
+}
+
+/* Subtítulo */
+h2 {
+    color: #ff00aa; /* Color saturado magenta */
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+}
+
+/* Párrafo con especificaciones actualizadas */
+p {
+    font-family: 'Roboto', sans-serif; /* Tipografía Roboto */
+    font-size: 16px; /* Tamaño actualizado a 16px */
+    max-width: 55ch; /* Ancho de línea optimizado dentro del rango de 35-65 caracteres */
+    line-height: 1.6;
+    color: #e6e6e6; /* Alta legibilidad */
+    margin-bottom: 35px;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 20px;
+    border-left: 3px solid #ccff00; /* Detalle verde neón saturado */
+}
+
+/* Resaltado para las palabras clave en el párrafo */
+p strong {
+    color: #ffffff; /* Blanco puro para destacar más */
+    font-weight: 700; /* Roboto Bold */
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3); /* Ligero resplandor */
+}
+
+/* Imagen adjunta */
+.imagen-portfolio {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+    border: 2px solid #333;
+}
+
+/* Contenedor de botones para organizar los enlaces */
+.enlaces-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+/* Enlace externo principal (Behance) */
+a.btn-behance {
+    color: #ccff00; /* Verde/Amarillo neón saturado */
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border: 2px solid #ccff00;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all 0.3s ease;
+    background-color: rgba(204, 255, 0, 0.03);
+}
+
+a.btn-behance:hover {
+    background-color: #ccff00;
+    color: #0b0b11;
+    box-shadow: 0 0 15px rgba(204, 255, 0, 0.6);
+}
+
+/* Enlace interno (navegación entre páginas) */
+a.btn-interno {
+    color: #00ffcc; /* Cian saturado para diferenciar la navegación interna */
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border: 2px solid #00ffcc;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all 0.3s ease;
+    background-color: rgba(0, 255, 204, 0.03);
+}
+
+a.btn-interno:hover {
+    background-color: #00ffcc;
+    color: #0b0b11;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.6);
+}
+
+/* Contenedor para hacer el video de YouTube responsive */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-bottom: 15px;
+    border: 2px solid #ff00aa; /* Borde urbano magenta */
+    box-shadow: 5px 5px 0px rgba(255, 0, 170, 0.2);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Autoría del video */
+h3.video-autor {
+    color: #ccff00;
+    font-size: 1rem;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: normal;
+}
+
+h3.video-autor span {
+    color: #e6e6e6;
+    font-style: italic;
+}
+
+/* Sección de Licencia Creative Commons */
+.licencia-cc {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px dashed #333;
+    font-size: 0.85rem;
+    color: #a0a0a0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.licencia-cc img {
+    margin-bottom: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.licencia-cc img:hover {
+    opacity: 0.8;
+}
+
+.licencia-cc a {
+    color: #ff00aa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.licencia-cc a:hover {
+    color: #ff0055;
+    text-decoration: underline;
+}
+
+.licencia-cc a.link-img-cc {
+    border: none;
+    padding: 0;
+}
