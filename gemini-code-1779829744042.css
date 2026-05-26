@@ -1,0 +1,70 @@
+/* 1. IMPORTACIÓN DE FUENTES */
+/* Importamos Share Tech Mono, una fuente monoespaciada ideal para interfaces de ciencia ficción y computadoras */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+/* 2. ESTILOS GENERALES */
+body {
+    background-color: #0a0f14; /* Un fondo casi negro con un matiz azulino muy frío */
+    margin: 0;
+    padding: 0;
+}
+
+/* 3. ESTILOS DEL CONTENEDOR PRINCIPAL */
+.contenedor {
+    width: 80%;                 /* Mantenemos el 80% de ancho solicitado */
+    margin: 20px auto;          /* Centrado horizontal */
+    padding: 20px;              /* Un poco más de espacio interno */
+    background-color: #111a24;  /* Fondo gris azulado oscuro, emulando una pantalla o laboratorio */
+    border: 1px solid #00ffcc;   /* Borde sutil pero de color verde neón / cian, tipo interfaz de nave */
+    border-radius: 4px;         /* Esquinas casi rectas para mantener el estilo rígido e institucional */
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.1); /* Un leve resplandor neón alrededor del div */
+}
+
+/* 4. ESTILOS DEL TITULAR (H1) */
+.contenedor h1 {
+    font-family: 'Share Tech Mono', monospace; /* Usamos la misma fuente para todo el concepto sci-fi */
+    font-size: 36px;
+    color: #ffffff;             /* Título en blanco puro para que resalte */
+    text-transform: uppercase;  /* Forzamos mayúsculas para darle un toque más institucional/militar */
+    letter-spacing: 2px;        /* Espaciado entre letras típico de los logos de ciencia ficción */
+    margin-top: 0;
+    border-bottom: 1px solid #1f3142; /* Una línea divisoria sutil debajo del título */
+    padding-bottom: 10px;
+}
+
+/* 5. ESTILOS DE LOS PÁRRAFOS (P) */
+.contenedor p {
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #a0aec0;            /* Gris claro frío para que sea legible sobre el fondo oscuro */
+}
+
+/* 6. ESTILOS DE LA IMAGEN */
+.contenedor img {
+    width: 100%;               /* Se adapta al ancho del contenedor */
+    height: auto;
+    border: 1px solid #1f3142; /* Borde oscuro para enmarcar la foto */
+    margin: 15px 0;
+}
+
+/* 7. ESTILOS DEL ENLACE (BOTÓN A MAX) */
+.boton-enlace {
+    display: inline-block;
+    font-family: 'Share Tech Mono', monospace;
+    text-decoration: none;     /* Quitamos el subrayado común de los links */
+    background-color: #00ffcc; /* Fondo cian neón */
+    color: #0a0f14;            /* Texto oscuro para que contraste perfectamente */
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s ease; /* Efecto suave al pasar el mouse */
+}
+
+.boton-enlace:hover {
+    background-color: #00b399; /* El color se oscurece un poco cuando pasás el cursor */
+}
