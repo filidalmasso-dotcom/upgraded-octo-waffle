@@ -1,0 +1,112 @@
+/* Estilos Generales y Reseteo básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f3f7; /* Fondo sutil para contrastar con el div lila */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* El div solicitado: 500px de ancho con fondo lila */
+.tarjeta-portfolio {
+    width: 500px;
+    background-color: #e2d4f0; /* Color lila suave y estético */
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Elemento h1: Roboto, 24px */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #222222;
+    margin-bottom: 8px;
+}
+
+/* Elemento h2: Roboto, 19px, color violeta */
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    color: #6a1b9a; /* Violeta */
+    margin-bottom: 24px;
+}
+
+/* Elemento p: Mulish, tamaño legible para lectura en pantalla */
+p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px; /* Tamaño altamente legible para cuerpos de texto */
+    line-height: 1.6;
+    color: #424242;
+    margin-bottom: 16px;
+}
+
+/* Estilo personalizado para diferenciar los enlaces */
+.enlace-destacado {
+    color: #4a00e0;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid #4a00e0;
+    padding-bottom: 1px;
+    transition: all 0.3s ease;
+}
+
+.enlace-destacado:hover {
+    color: #8e2de2;
+    border-color: #8e2de2;
+    background-color: rgba(142, 45, 226, 0.05);
+}
+
+/* Ajuste para que el video no se desborde del div de 500px */
+.contenedor-video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporción 16:9 */
+    height: 0;
+    margin: 20px 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.contenedor-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Botón amarillo al final de la página */
+.boton-amarillo {
+    display: block;
+    background-color: #ffd166; /* Amarillo llamativo pero armónico */
+    color: #111111;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 20px;
+    border-radius: 8px;
+    margin-top: 25px;
+    box-shadow: 0 2px 8px rgba(255, 209, 102, 0.3);
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.boton-amarillo:hover {
+    background-color: #ffc333;
+    transform: translateY(-1px);
+}
+
+.boton-amarillo:active {
+    transform: translateY(1px);
+}

@@ -3,38 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Fili</title>
-    <!-- Importando fuentes de Google Fonts -->
+    <title>Portfolio de Fili</title>
+    <!-- Cargando fuentes desde Google Fonts: Roboto y Mulish -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <!-- Vinculando la hoja de estilo externa -->
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Vinculación de la hoja de estilo externa -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="contenedor-principal">
-        <h1>¡Hola! Soy Fili</h1>
-        <h2>Te invito a conocer más de mi</h2>
+
+    <!-- Div principal de 500px con fondo lila solicitado -->
+    <div class="tarjeta-portfolio">
         
-        <p>Dejenme contarles un poco de mí, apenas salí del secundario entré a la <strong>Tecnicatura universitaria en diseño gráfico</strong>. Sin saber mucho de la disciplina fui transitando la carrera y poco a poco me enganché. En 2024 terminé y a mediados de 2025 comencé la <strong>Licenciatura en diseño</strong> que continúo hasta el día de hoy. Durante esta trayectoria participé en proyectos de investigación y desarrollé proyectos de <strong>diseño gráfico de manera freelance</strong>. Al día de hoy me dedico al <strong>diseño editorial</strong> y disfruto mucho de trabajar de forma colectiva. Uno de mis referentes es <strong>Coco Cerrella</strong>, un diseñador gráfico, activista y docente que se especializa en <strong>afichismo</strong>, diseñando piezas de <strong>gran impacto visual</strong> y con mensajes muy pregnantes.</p>
+        <h1>Hola soy Fili</h1>
+        <h2>Bienvenidx a mi portfolio</h2>
         
-        <img src="portadalibro.jpg" alt="Diseño de libro Silenciadas" class="imagen-portfolio">
+        <p>Soy diseñadora gráfica y mi area de especialización es el diseño editorial. Me gusta trabajar en proyectos que se enfocan en el bienestar social. Te invito a conocer <a href="https://filidalmasso.myportfolio.com/" target="_blank" class="enlace-destacado">mi trabajo</a>.</p>
         
-        <div class="enlaces-container">
-            <a href="https://www.behance.net/gallery/227620777/SILENCIADAS-Diseno-de-libro/modules/1302846991" target="_blank" rel="noopener noreferrer" class="btn-behance">Ver proyecto en Behance</a>
-            
-            <!-- Enlace interno al segundo documento HTML -->
-            <a href="video.html" class="btn-interno">Ver video recomendado</a>
+        <p>Te dejo un video de mi banda favorita para que me conozcas un poco más</p>
+        
+        <!-- Contenedor adaptativo para el iframe del video -->
+        <div class="contenedor-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mignZXt3yoM?si=2TIy6muysHUZWcGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         
-        <!-- Sección de Licencia Creative Commons -->
-        <div class="licencia-cc">
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" class="link-img-cc">
-                <img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
-            </a>
-            <br />
-            Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.
-        </div>
+        <!-- Botón amarillo enlazado a la segunda página -->
+        <a href="banda.html" class="boton-amarillo">Conocé más de Mora y los Metegoles</a>
+        
     </div>
+
 </body>
 </html>
